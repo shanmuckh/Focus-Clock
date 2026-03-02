@@ -27,7 +27,7 @@ export default function Home() {
       <CursorFollower/>
       <Time />
       <Progress />
-      <a href="https://github.com/mohitvirli/focus-clock" target="_blank" className="absolute top-4 right-4">
+      <a href="https://github.com/shanmuckh/focus-clock" target="_blank" className="absolute top-4 right-4">
         <Magnet magnetStrength={10}>
           <motion.div whileHover={{ scale: 1.5 }} whileTap={{ scale: 0.9 }}>
             <Image src="./github.svg" width="24" height="24" alt="github"/>
